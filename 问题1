@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS  1
+#include <stdio.h>
+#include<string.h>
+int main()
+{  
+	//char arr1[] = "abc";
+	//char arr2[] = { 'a', 'b', 'c' };
+	//printf("%d\n", strlen(arr1));
+	//printf("%d\n", strlen(arr2));
+	//printf("%d\n", strlen("c:\test\32\test.c"));
+	//printf("好好学习");
+	int input = 0;
+	printf("你是帅哥吗？（1/0)>:");
+	scanf("%d", &input);
+	if (input == 1);
+	    printf("的确是大帅哥");
+	else
+		printf("你就是帅哥");
+
+	return 0;
+} //无法运行
